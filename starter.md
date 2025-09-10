@@ -1,227 +1,128 @@
-# AI Agent Instructions: Create a Great GitLab Repository for Markdown
+# Instructions: Use GitHub to Save and Manage Markdown
 
-## Overview
-You are an AI assistant helping to create and optimize a GitLab repository specifically designed for markdown content. Your goal is to set up a professional, well-organized repository that follows best practices for documentation, collaboration, and maintenance.
-
-## Core Objectives
-1. **Structure**: Create a logical, scalable folder structure for markdown files
-2. **Documentation**: Implement comprehensive documentation standards
-3. **Automation**: Set up CI/CD pipelines for markdown validation and processing
-4. **Collaboration**: Configure tools and templates for team collaboration
-5. **Quality**: Ensure consistent formatting and style across all markdown files
-
-## Repository Structure to Implement
-
-### 1. Root Directory Setup
+## 1) Create the repository
+- **On GitHub**: New repository → Name it (e.g., `docs`), choose Public/Private, add a `README.md` and a license.
+- **Locally**:
+```bash
+git clone https://github.com/<you>/<repo>.git
+cd <repo>
 ```
-├── .gitlab/
-│   ├── ci/
-│   │   └── markdown-validation.yml
-│   └── issue_templates/
-│       ├── documentation-bug.md
-│       └── content-request.md
+
+## 2) Establish structure
+- **Suggested layout**:
+```
 ├── docs/
 │   ├── getting-started/
 │   ├── guides/
-│   ├── api/
-│   └── examples/
-├── templates/
-│   ├── article-template.md
-│   ├── guide-template.md
-│   └── api-doc-template.md
-├── assets/
-│   ├── images/
-│   └── diagrams/
+│   ├── reference/
+│   └── assets/
+│       ├── images/
+│       └── diagrams/
+├── .github/
+│   ├── workflows/
+│   └── ISSUE_TEMPLATE/
 ├── .markdownlint.json
 ├── .gitignore
 ├── README.md
-├── CONTRIBUTING.md
-└── LICENSE
+└── CONTRIBUTING.md
+```
+- **Naming**: Use kebab-case (`getting-started.md`), one H1 per file, descriptive titles.
+
+## 3) Authoring conventions
+- Prefer short lines (≤ 100 chars), meaningful headings, and descriptive link text.
+- Always add alt text to images and specify code block languages.
+- Cross-link related docs; keep a Table of Contents in `README.md`.
+
+## 4) Ignore and lint
+- `.gitignore` basics:
+```gitignore
+.DS_Store
+node_modules/
+dist/
+_site/
+```
+- Markdown lint config `.markdownlint.json` (example):
+```json
+{
+  "MD013": { "line_length": 100 },
+  "MD033": false,
+  "MD041": true
+}
+```
+- Optional local linting:
+```bash
+npm i -D markdownlint-cli
+npx markdownlint "**/*.md" --ignore node_modules
 ```
 
-### 2. Essential Files to Create
-
-#### README.md
-- Project overview and purpose
-- Quick start guide
-- Table of contents with links
-- Badges for build status, license, etc.
-- Contributing guidelines reference
-- Contact information
-
-#### CONTRIBUTING.md
-- How to contribute guidelines
-- Markdown style guide
-- Pull request process
-- Issue reporting guidelines
-- Code of conduct
-
-#### .markdownlint.json
-- Configure markdown linting rules
-- Set line length limits
-- Define heading styles
-- Configure list formatting
-
-#### .gitignore
-- Ignore temporary files
-- Exclude build artifacts
-- Ignore IDE-specific files
-- Exclude generated documentation
-
-### 3. GitLab CI/CD Pipeline
-
-#### markdown-validation.yml
+## 5) Automate checks with GitHub Actions
+- Create `.github/workflows/markdown.yml`:
 ```yaml
-stages:
-  - validate
-  - build
-  - deploy
-
-markdown_lint:
-  stage: validate
-  image: node:latest
-  script:
-    - npm install -g markdownlint-cli
-    - markdownlint "**/*.md" --ignore node_modules
-  rules:
-    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
-build_docs:
-  stage: build
-  image: node:latest
-  script:
-    - npm install -g docsify-cli
-    - docsify serve docs --port 3000
-  artifacts:
-    paths:
-      - docs/_site/
-    expire_in: 1 week
+name: Markdown CI
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm i -g markdownlint-cli markdown-link-check
+      - name: Lint Markdown
+        run: markdownlint "**/*.md" --ignore node_modules
+      - name: Check Links
+        run: |
+          git ls-files "*.md" | xargs -n1 -I{} sh -c 'markdown-link-check -q {} || exit 1'
 ```
 
-### 4. Documentation Standards
+## 6) PR quality gates and templates
+- Protect `main` branch: Require PRs, 1+ review, status checks (Actions) to pass, up-to-date branches.
+- Add `.github/pull_request_template.md` with a checklist (headings, links, images alt text, lint passes).
+- Add issue templates in `.github/ISSUE_TEMPLATE/` (bug, content request).
 
-#### Markdown Style Guide
-- Use consistent heading hierarchy (H1 for page titles, H2 for sections)
-- Limit line length to 80-100 characters
-- Use descriptive link text
-- Include alt text for images
-- Use code blocks with language specification
-- Follow consistent list formatting
+## 7) Writing and committing workflow
+```bash
+git checkout -b docs/add-getting-started
+# create/edit files under docs/
+git add .
+git commit -m "docs: add getting started guide"
+git push -u origin docs/add-getting-started
+```
+- Open a Pull Request; ensure checks pass; address review comments; merge via Squash and merge.
 
-#### File Naming Conventions
-- Use kebab-case for file names
-- Include descriptive names
-- Use numbers for ordering when needed (01-introduction.md)
-- Avoid special characters and spaces
+## 8) Publishing (optional)
+- Enable GitHub Pages: Settings → Pages → Build from branch → select `main` and `/docs`.
+- Use a simple static site generator (optional): MkDocs or Docsify.
+  - MkDocs quick start:
+  ```bash
+  pip install mkdocs mkdocs-material
+  mkdocs new .
+  mkdocs serve
+  ```
+  - Add an Action to deploy (e.g., `mkdocs gh-deploy --force`).
 
-#### Content Organization
-- Group related content in folders
-- Use index files for navigation
-- Include cross-references between documents
-- Maintain a logical flow from basic to advanced topics
+## 9) Assets and links
+- Store images under `docs/assets/images/`; reference with relative paths: `![Alt text](../assets/images/example.png)`.
+- Prefer reference-style links for reuse; verify external links with CI.
 
-### 5. Collaboration Features
+## 10) Versioning and releases
+- Use tags/releases for major documentation milestones.
+- Keep a `CHANGELOG.md` summarizing notable documentation updates.
 
-#### Issue Templates
-- Documentation bug report template
-- Content request template
-- Feature request template
-- Template for new contributor onboarding
+## 11) Collaboration and maintenance
+- Define contribution rules in `CONTRIBUTING.md` (style, headings, link policy, review process).
+- Periodically run link checks and lint locally; keep Actions green.
+- Review open issues/PRs weekly; archive or prune stale content.
 
-#### Merge Request Templates
-- Checklist for markdown quality
-- Review guidelines
-- Testing requirements
-- Documentation update requirements
+## 12) Backup and portability
+- Clone to a second location or mirror the repo.
+- Export site builds (if using a generator) to `dist/` for offline backup.
 
-#### Branch Protection Rules
-- Require merge request reviews
-- Require status checks to pass
-- Restrict pushes to main branch
-- Require up-to-date branches
+You now have a repeatable, CI-enforced workflow to create, review, and publish Markdown using GitHub.
 
-### 6. Quality Assurance
 
-#### Automated Checks
-- Markdown syntax validation
-- Link checking
-- Image optimization
-- Spelling and grammar checks
-- Accessibility compliance
-
-#### Manual Review Process
-- Content accuracy review
-- Style consistency check
-- User experience evaluation
-- Technical accuracy verification
-
-### 7. Advanced Features
-
-#### Search and Navigation
-- Implement full-text search
-- Create navigation menus
-- Add breadcrumb navigation
-- Include table of contents
-
-#### Version Control
-- Tag releases for documentation versions
-- Maintain changelog
-- Archive old versions
-- Track documentation metrics
-
-#### Integration
-- Connect with project management tools
-- Integrate with communication platforms
-- Set up automated notifications
-- Configure webhooks for updates
-
-## Implementation Steps
-
-1. **Initialize Repository Structure**
-   - Create folder hierarchy
-   - Set up initial configuration files
-   - Configure GitLab project settings
-
-2. **Set Up CI/CD Pipeline**
-   - Create validation pipeline
-   - Configure build and deployment
-   - Test pipeline functionality
-
-3. **Create Documentation Templates**
-   - Design consistent templates
-   - Create style guide
-   - Set up contribution guidelines
-
-4. **Configure Collaboration Tools**
-   - Set up issue templates
-   - Configure merge request templates
-   - Implement branch protection
-
-5. **Quality Assurance Setup**
-   - Configure linting tools
-   - Set up automated checks
-   - Create review processes
-
-6. **Advanced Features**
-   - Implement search functionality
-   - Set up version control
-   - Configure integrations
-
-## Success Metrics
-
-- **Quality**: All markdown files pass linting checks
-- **Consistency**: Uniform formatting across all documents
-- **Collaboration**: Active participation from team members
-- **Maintenance**: Regular updates and improvements
-- **User Experience**: Easy navigation and search functionality
-
-## Maintenance Guidelines
-
-- Regular review of documentation quality
-- Update templates based on feedback
-- Monitor and improve CI/CD pipeline
-- Keep dependencies and tools updated
-- Gather and act on user feedback
-
-Remember: The goal is to create a repository that makes it easy for anyone to contribute high-quality markdown documentation while maintaining consistency and professional standards.
