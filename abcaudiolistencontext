@@ -1,6 +1,4 @@
-# ABC Audio Context Guide for Product Advisor AI
-
-## Input Template
+# Context guide for ABC listen & ABC Audio
 
 ### Division / Umbrella
 - **Name**: ABC Audio  
@@ -47,39 +45,3 @@
 - Retention and repeat listening  
 - Cultural impact (artist discovery, event participation)  
 
----
-
-## Outputs
-
-### 1. Positioning Canvas
-- Category  
-- Target segment  
-- Core insight  
-- Value promise  
-- Reasons to believe  
-- Differentiators  
-- Main alternatives  
-- Pricing posture (always free, public service)  
-
-### 2. Messaging Hierarchy
-- One-line positioning statement  
-- Three proof bullets  
-- Feature → benefit map  
-
-### 3. Competitive Snapshot
-- Table comparing ABC listen & triple j app to Spotify, Apple, YouTube, commercial radio  
-
-### 4. Experiment Plan
-- Three experiments with:  
-  - Metric  
-  - Lift target  
-  - Rule for ship/kill  
-
-### 5. Risks & Mitigations
-- Switching costs low vs global platforms  
-- Brand fragmentation risk  
-- Discovery friction vs algorithmic competitors  
-- Mitigation strategies  
-
-### 6. 90-Day Actions
-- Max 6 clear actions (feature experiments, narrative tests, engagement pilots)
