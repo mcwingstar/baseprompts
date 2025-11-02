@@ -84,34 +84,46 @@
 ### Target Role Profile
 
 **Ideal Next Role (Post-MBA):**
-- Head of Product at Series B-C startup (50-300 employees)
-- Senior Director / Group PM at established tech scale-up (300-2000 employees)
-- Product leadership role at company with meaningful AI integration (not just buzzword)
-- Open to strong Senior GPM roles at exceptional companies as stepping stone
+Senior product leadership role optimized for impact and growth trajectory, not specific title. Open to Director of Product, Senior Group PM, VP Product, or Head of Product depending on actual scope and authority.
+
+**Core Criteria (Impact-Based):**
+- **Strategic Influence:** Direct input into product strategy, access to founders/C-suite, ability to shape roadmap
+- **Team Leadership:** Leading 5-15+ people, building/coaching team, creating product culture
+- **Decision Authority:** Days/weeks decision cycles, high autonomy, minimal approval layers
+- **Commercial Exposure:** Visibility into unit economics, involved in pricing/packaging, connect product to revenue
+- **Growth Path:** Clear trajectory to VP Product or GM within 2-3 years as company scales
 
 **Company Characteristics:**
-- Fast-paced, outcome-driven culture
-- AI-forward mindset (not necessarily AI company, but agile in adopting AI capabilities)
-- Series B-D startup or small-to-medium established tech company
-- Strong product culture, not legacy enterprise
+- Series B-C (50-500 employees) where scope can expand as company grows
+- Fast-paced, outcome-driven culture with minimal bureaucracy
+- AI-forward mindset (agile in adopting AI, not necessarily AI company)
+- Strong product culture (product-led, not sales-led or founder-dictated)
 - Preference for Sydney-based or remote-friendly
 
+**Role Scope Examples (Regardless of Title):**
+- Director of Product at Series B reporting to CEO, only product leader
+- Senior GPM owning core product or growth at Series B/C with critical business impact  
+- VP Product at smaller Series B (functionally Head of Product)
+- Head of [Product Area] at Series C with full autonomy over vertical
+
 **Timeline Flexibility:**
-- Head of Product: Target 0-2 years post-MBA depending on company fit
-- Would accept strong GPM role at right company immediately post-MBA
-- General Management: Longer-term aspiration, not immediate priority
+- Ideal: Senior Director/VP-equivalent role immediately post-MBA
+- Path to Head of Product/VP: Within 12-24 months based on performance
+- Not optimizing for title, optimizing for scope and company quality
 
 **Deal Breakers:**
-- Large legacy corporations with slow decision-making
-- Highly hierarchical, bureaucratic environments
-- Companies without AI strategy or adaptability in AI space (risk of being left behind)
-- Organizations without commercial pressure or urgency
+- Title inflation (fancy title, limited scope)
+- 3+ layers from CEO (too corporate)
+- Sales-led or founder-dictated product culture (no real authority)
+- Slow decision-making despite "startup" label
+- Companies without AI strategy or adaptability
 - Poor culture or toxic leadership
 
 **Compensation Expectations:**
-- Minimum: $200-220k base for senior GPM role
-- Target: $250-300k total comp for Head of Product
-- Open to lower base for exceptional startup opportunity with meaningful equity
+- Minimum: $200-220k base for Director-level role  
+- Target: $250-300k total comp for VP-equivalent role
+- Willing to optimize for equity and scope over maximizing cash
+- Open to below-market base for exceptional equity at right Series B
 
 ## Positioning Strategy
 
@@ -303,13 +315,42 @@
 ## Questions to Answer Before Applications
 
 **For Each Opportunity:**
-1. What's the pace of decision-making? (Ask for examples)
-2. How much autonomy will I have? (Understand approval processes)
-3. What commercial metrics drive success? (Ensure alignment with business outcomes)
-4. How does the company use AI? (Assess if it's meaningful or buzzword)
-5. What's the product culture? (Engineering-driven? Design-driven? Balanced?)
-6. Why is this role open? (Growth or backfill? What happened to predecessor?)
-7. What does success look like in first 90 days? (Understand expectations)
+
+**Scope & Authority:**
+1. Walk me through how a typical product decision gets made here - from idea to launch.
+2. What decisions can I make autonomously vs. need approval?
+3. How often do founders/CEO override product decisions?
+4. Who sets product strategy - is it collaborative or top-down?
+
+**Team & Growth:**
+5. What does this team look like today vs. 18 months from now if we hit goals?
+6. Am I hiring my own team or inheriting one? What authority in hiring decisions?
+7. What does success look like in first 90 days vs. first year?
+8. How has this role evolved in past year? How might it evolve in next 18 months?
+
+**Pace & Culture:**
+9. Give me example of recent decision - how long from discussion to action?
+10. What slows down product development here?
+11. How often does leadership change priorities?
+12. What's the relationship between product and commercial/sales teams?
+
+**Commercial Context:**
+13. How does the company use AI? (Assess if meaningful or buzzword)
+14. What commercial metrics drive success for this role?
+15. How much visibility will I have into unit economics, pricing, monetization?
+
+**Career Path:**
+16. What would promotion path look like if I excel?
+17. Why is this role open? (Growth or backfill? What happened to predecessor?)
+18. How many layers between this role and CEO?
+
+**Red Flags to Watch For:**
+- Vague answers about decision-making authority ("it depends", "we're collaborative")
+- Role is one of many at same level with unclear differentiation
+- 3+ layers from CEO or limited access to leadership
+- Founders/CEO make final product calls despite having product leadership
+- Recent layoffs, stalled growth, or high product team turnover
+- No clear answer on role evolution or growth path
 
 ## Personal Notes
 
