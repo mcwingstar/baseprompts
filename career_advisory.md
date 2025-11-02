@@ -3,13 +3,13 @@
 ## Executive Summary
 
 **Current Position:** Group Product Manager, ABC listen & Music (2023-Present)  
-**Total Experience:** 10+ years in product/digital (8 years at ABC)  
+**Total Experience:** 14+ years in tech (front-end dev 2011, product 2016), 8 years product experience  
 **Age:** 36 (DOB: 02/08/1989)  
 **Location:** Sydney, Australia (homeowner, open to relocation)  
 **Current Salary:** $169,000 (below market rate)  
-**Next Move:** Entering UNSW MBA (Full-Time) May 2026, targeting corporate product leadership or general management roles
+**Next Move:** Entering UNSW MBA (Full-Time) May 2026, targeting Head of Product or senior product leadership roles
 
-**Core Challenge:** Breaking out of "public media product manager" typecasting to demonstrate commercial versatility and pace in corporate environments.
+**Core Challenge:** Breaking out of "public media product manager" typecasting to demonstrate commercial velocity and tech company relevance.
 
 ## Professional Profile
 
@@ -22,7 +22,7 @@
 - Won Good Design Award (Best in Class) for ABC listen redesign
 
 **Cross-Functional Capability**
-- Technical foundation: Started as Cisco Network Engineer, progressed through front-end development
+- Technical foundation: 3 years front-end development and CRM systems (2011-2014), built sales system for CIT Canberra, deep understanding of web technologies
 - Design expertise: General Assembly UX Immersive, taught UX design, led strategic design at ABC
 - Strategy: Recent AIM training (Strategic Thinking, Strategy-on-a-page), passionate about strategic frameworks
 - Research: Deep quantitative and qualitative research methods, data analysis with SQL and analytics tools
@@ -30,16 +30,21 @@
 **Demonstrable Impact**
 - Full app redesign/redevelopment resulting in significant retention increases (complex, high-stakes project)
 - Website consolidation and team restructure enabling focused innovation
-- Third-party integrations and partnerships management (Spotify, Apple Podcasts, etc.)
+- Third-party distribution partnerships (Apple Podcasts, Google Podcasts, Amazon Music, iHeartRadio, TuneIn)
+- Revenue-sharing relationships with Spotify and Megaphone (managed by commercial division)
+- Leading acquisition evaluation of podcast management and ad insertion tooling
 - Algorithmic discovery and personalization systems (2016-2018)
 
 ### Gaps & Development Areas
 
 **Commercial Experience**
-- No P&L ownership or budget authority in current role
-- Limited exposure to revenue-generating products (aside from Allianz UX consulting)
-- Minimal pricing, monetization, or commercial negotiation experience
-- Never worked in for-profit tech or startup environment
+- No direct P&L ownership in current role
+- Commercial exposure: CRM sales system for CIT Canberra (2013-2014), 6-week Allianz project designing dealership repair management system with call center integration (2015)
+- Student project: Designed international payment flows for fintech startup Sparro/Indentii, conducted business insights research (2015)
+- Revenue-sharing partnerships exist but managed by separate commercial division
+- Active in resource allocation advocacy, vendor contract negotiations, and build vs. buy decisions
+- Leading evaluation of podcast ad insertion tool acquisition
+- Never held formal budget authority or commercial leadership role
 
 **Finance & Business Acumen**
 - No formal finance training beyond undergrad economics
@@ -47,9 +52,10 @@
 - Needs credibility in hard commercial metrics beyond user engagement
 
 **Corporate Navigation**
-- 8 years in one public sector organization creates perception risk
+- 10 years at ABC (2 years design/strategy, 8 years product) creates perception risk
 - Unknown ability to operate in high-velocity, commercially-driven environments
 - May be perceived as lacking political savvy for corporate settings
+- 14 years total tech experience provides depth but narrow organizational exposure
 
 ## Career Transition Strategy
 
@@ -78,27 +84,33 @@
 ### Target Role Profile
 
 **Ideal Next Role (Post-MBA):**
-- Senior Product Manager / Director of Product at Series B-D startup or scale-up
-- Product leadership role at mid-size tech company (200-2000 employees)
-- General Management track in media/tech company using AI technologies
-- Corporate innovation or digital transformation role (bridge between product and strategy)
+- Head of Product at Series B-C startup (50-300 employees)
+- Senior Director / Group PM at established tech scale-up (300-2000 employees)
+- Product leadership role at company with meaningful AI integration (not just buzzword)
+- Open to strong Senior GPM roles at exceptional companies as stepping stone
 
 **Company Characteristics:**
 - Fast-paced, outcome-driven culture
-- Leveraging AI technologies meaningfully
+- AI-forward mindset (not necessarily AI company, but agile in adopting AI capabilities)
 - Series B-D startup or small-to-medium established tech company
 - Strong product culture, not legacy enterprise
 - Preference for Sydney-based or remote-friendly
 
+**Timeline Flexibility:**
+- Head of Product: Target 0-2 years post-MBA depending on company fit
+- Would accept strong GPM role at right company immediately post-MBA
+- General Management: Longer-term aspiration, not immediate priority
+
 **Deal Breakers:**
 - Large legacy corporations with slow decision-making
 - Highly hierarchical, bureaucratic environments
+- Companies without AI strategy or adaptability in AI space (risk of being left behind)
 - Organizations without commercial pressure or urgency
 - Poor culture or toxic leadership
 
 **Compensation Expectations:**
-- Minimum: $180-200k base (increase from current $169k)
-- Target: $220-280k total comp for senior product role
+- Minimum: $200-220k base for senior GPM role
+- Target: $250-300k total comp for Head of Product
 - Open to lower base for exceptional startup opportunity with meaningful equity
 
 ## Positioning Strategy
@@ -109,17 +121,23 @@
 "Product leader who built and scaled consumer audio products to millions of users, now seeking to apply deep product craft and strategic thinking in fast-moving commercial environments."
 
 **Key Proof Points to Emphasize:**
+- 14 years in tech (developer → designer → product leader) demonstrates sustained technical credibility
 - 20% YOY growth sustained over 3 years (demonstrate impact at scale)
 - Award-winning product redesign (external validation of craft)
-- Cross-functional leadership breadth (tech → design → strategy → product)
-- Team building and stakeholder management in complex matrix org
+- Built sales CRM system for CIT Canberra (early commercial systems experience)
+- Allianz dealership system: 6-week commercial project designing repair management with call center integration (2015)
+- Active in resource allocation, vendor negotiations, and build vs. buy decisions (commercial judgment without formal authority)
+- Leading podcast ad tech acquisition evaluation (commercial product strategy)
+- Early fintech exposure through Sparro/Indentii project (international payments UX)
 - Early AI/personalization work (2016-2018 algorithmic discovery)
 
 **Address the Gaps:**
 - Position MBA as deliberate investment in commercial acumen and finance literacy
-- Highlight Allianz consulting as commercial experience (even if limited)
+- Frame CIT CRM work and Allianz dealership system as commercial experience (even if consulting/short-term)
+- Mention Sparro/Indentii fintech project to show early interest in commercial tech beyond public sector
+- Highlight involvement in resource allocation and vendor negotiations (commercial judgment without formal authority)
 - Frame public sector as training ground for stakeholder complexity, now seeking faster pace
-- Emphasize breadth of technical foundation (network engineer → developer → designer → product leader)
+- Emphasize 14 years of technical foundation (developer → designer → product leader)
 
 ### Interview Talking Points
 
@@ -130,10 +148,10 @@
 "After 8 years building product leadership skills, I recognized I needed formal training in finance and strategy to make the jump to general management. The full-time MBA gives me that foundation while creating a clean break to reposition myself for corporate roles."
 
 **What Do You Bring?**
-"I bring proven ability to scale products, build high-performing teams, and navigate complex stakeholder environments. My technical foundation means I can work effectively with engineering, my design background means I obsess over user experience, and my strategic training means I connect product decisions to business outcomes."
+"I bring proven ability to scale products, build high-performing teams, and navigate complex stakeholder environments. I started as a developer building CRM and sales systems, moved into UX design, and progressed into product leadership. This technical foundation means I can work effectively with engineering, my design background means I obsess over user experience, and my strategic training means I connect product decisions to business outcomes. I've been making resource allocation recommendations and build vs. buy decisions for years - the MBA gives me the formal finance training to do this at an executive level."
 
 **Address the Public Sector Concern Head-On:**
-"I understand the perception risk of 8 years in public media. That's precisely why I'm doing the MBA and being deliberate about this transition. I've consistently delivered growth in a complex, stakeholder-heavy environment. Now I want to apply that discipline in commercial settings where urgency and focus can compound impact faster."
+"I understand the perception risk of a decade at ABC. That's precisely why I'm doing the MBA and being deliberate about this transition. I've consistently delivered growth in a complex, stakeholder-heavy environment while being involved in commercial decisions like vendor negotiations, resource allocation, and even leading evaluation of ad tech acquisitions. Now I want to apply that discipline in commercial settings where I have formal P&L ownership and where urgency and focus can compound impact faster."
 
 ## Network Development Plan
 
@@ -141,9 +159,9 @@
 
 **Leverage Existing Networks:**
 - ABC alumni who moved to commercial roles (prioritize these relationships)
-- General Assembly UX network (many in startups/scale-ups)
+- General Assembly UX network (many in startups/scale-ups) - including Sparro/Indentii contacts
 - ANU graduates in Sydney tech scene
-- Reconnect with Allianz contacts from consulting project
+- Reconnect with Allianz contacts from 2015 dealership system project (now 10 years later, many likely in senior roles)
 
 **Build New Connections:**
 - Attend Sydney product management meetups (ProductTank Sydney, etc.)
@@ -190,10 +208,17 @@
 ### Now - May 2026 (Pre-MBA)
 
 **Q4 2025:**
-- Finalize UNSW MBA acceptance and scholarship
-- Complete Sydney EMBA interviews (decision by Dec/Jan)
+- ✅ Accepted UNSW MBA Full-Time with 50% scholarship (Decision made)
 - Update LinkedIn with MBA acceptance, signal career transition
 - Begin soft networking with target companies
+- Reach out to Allianz contacts from 2015 (now likely in senior positions)
+
+**Q1 2026:**
+- Plan ABC exit strategy (wrap up key projects, document wins)
+- Strengthen relationships with ABC alumni in commercial roles
+- Attend 2-3 product/tech networking events
+- Research Strategic Consulting Project opportunities
+- Check in with Sparro/Indentii contacts (fintech experience relevant for target companies)
 
 **Q1 2026:**
 - Plan ABC exit strategy (wrap up key projects, document wins)
@@ -265,14 +290,15 @@
 **Priority Tier (Immediate Outreach):**
 - ABC alumni who successfully transitioned to commercial product roles
 - UNSW MBA alumni at Canva, Atlassian, Airwallex
-- General Assembly UX network contacts at startups
-- Former Allianz colleagues who could refer you
+- General Assembly UX network contacts at startups (especially Sparro/Indentii if still in touch)
+- Allianz colleagues from 2015 dealership project (likely in senior insurance/tech roles now)
 
 **Secondary Tier (Relationship Building):**
 - Sydney product leadership community (ProductTank, etc.)
 - AI/ML product managers in Sydney tech scene
 - UNSW MBA current students in target industries
 - Recruiters specializing in senior product roles
+- Fintech connections through Sparro/Indentii network
 
 ## Questions to Answer Before Applications
 
@@ -290,24 +316,45 @@
 **Motivations & Values:**
 - Craves speed and urgency over consensus and hierarchy
 - Values outcome-driven thinking over process compliance
-- Wants to work with AI technologies meaningfully
+- Wants to work at companies that are AI-forward and agile (not necessarily AI companies, but organizations that won't be left behind by lack of AI adaptability)
 - Seeks positive, collaborative culture (not toxic "move fast and break things")
-- Interested in strategy and general management long-term, not pure product track
+- Interested in Head of Product track with potential GM evolution, not rushing toward GM
 
 **Constraints:**
 - Owns home in Sydney, prefers to stay but open to relocation
-- Currently making $169k, needs meaningful increase or compelling equity
-- Partner considerations (if any) not specified
-- Will be 37 at MBA graduation, competing with younger candidates
+- Currently making $169k, needs meaningful increase to $200k+ minimum
+- Will be 37 at MBA graduation, competing with younger candidates but bringing deeper technical credibility
 
 **Unique Selling Points:**
-- Rare combination of technical depth + design craft + product strategy
-- Proven ability to lead through influence in complex orgs
+- Rare combination of development experience + design craft + product strategy (full stack product leader)
+- 14 years in tech provides depth that most MBA grads lack
+- Proven ability to lead through influence in complex orgs (harder than leading with authority)
 - Early mover on personalization/algorithmic discovery (2016-2018)
 - Award-winning work demonstrates external validation
-- Demonstrated sustained growth over multi-year period
+- Demonstrated sustained growth over multi-year period (20% YOY for 3 years)
 
 ---
 
 **Last Updated:** November 2025  
+**MBA Decision:** UNSW Full-Time MBA confirmed, May 2026 start  
 **Next Review:** After MBA elective selection (Term 1, 2026)
+
+## Appendix: Commercial Experience Details
+
+**CIT Canberra Sales CRM System (2013-2014)**
+- Built sales tracking and management system as Senior Front End Developer & CRM Specialist
+- Service ACT (now Canberra Connect), government customer service agency
+- Demonstrates early commercial systems thinking in government context
+
+**Allianz Dealership Repair Management System (2015)**
+- 6-week UX consulting project
+- Designed in-dealership system for managing repair jobs
+- Integrated with call center workflows
+- First exposure to insurance sector and commercial operations
+
+**Sparro/Indentii Fintech Project (2015)**
+- Student project during General Assembly UX Immersive
+- Designed international payment flows for early-stage fintech startup
+- Conducted business insights research with interested businesses
+- Company now operates as Indentii
+- Demonstrates early interest in fintech and commercial tech
