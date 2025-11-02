@@ -1,0 +1,178 @@
+# Industry News Analysis Workflow
+
+Run this worklow when asked to "run analysis"
+
+## Objective
+Monitor and evaluate news across product management, development, digital strategy, AI, media, and audio sectors to identify potential impacts on current role and career trajectory.
+
+## Weekly Review Cycle
+
+### 1. Collection Phase
+- Aggregate articles from curated sources
+- Scan headlines from RSS feeds, newsletters, industry publications
+- Tag items by primary category: PM, Dev, Strategy, AI, Media, Audio
+- Flag items that span multiple categories
+
+### 2. Filtering Criteria
+Prioritize articles that meet one or more conditions:
+- Introduces new capability or platform shift
+- Signals market or skill demand change
+- Affects tools or processes in current workflow
+- Indicates emerging job role or responsibility area
+- Reports funding, acquisition, or major partnership with strategic implications
+
+### 3. Analysis Template
+For each selected article, document:
+
+**Source & Date:** [Publication, timestamp]
+
+**Core Development:** [One sentence summary of what changed]
+
+**Relevance Score:** [1-5 scale]
+- 5: Immediate action required
+- 4: Adjust planning within quarter
+- 3: Monitor for acceleration
+- 2: Background awareness
+- 1: Peripheral interest
+
+**Impact Assessment:**
+- Current role: [Specific effect on existing responsibilities]
+- Skill gaps: [Capabilities to develop or acquire]
+- Strategic positioning: [How this changes career options]
+
+**Action Items:** [Concrete next steps with timeframes]
+
+### 4. Monthly Synthesis
+Compile patterns across analyzed items:
+- Recurring themes or convergent trends
+- Skills with increasing demand signals
+- Technologies gaining adoption momentum
+- Role definitions shifting or emerging
+- Companies or sectors showing strategic movement
+
+### 5. Quarterly Strategy Update
+Review accumulated insights to:
+- Adjust skill development priorities
+- Revise target role specifications
+- Update company or sector focus areas
+- Modify professional brand positioning
+- Reallocate learning time and resources
+
+## Output Formats
+
+**Quick Capture:** Single paragraph with relevance score and primary action
+
+**Full Analysis:** Complete template for high-priority items
+
+**Trend Report:** Monthly synthesis document
+
+**Strategy Deck:** Quarterly update with revised positioning
+
+## Success Metrics
+- Time from signal detection to action taken
+- Accuracy of impact predictions over 6-month horizon
+- Conversion rate of insights to implemented changes
+- Reduction in surprise developments affecting role
+
+---
+
+# Key Sources by Category
+
+## Product Management
+
+### Publications
+- Product Coalition (Medium): practitioner insights, case studies
+- Mind the Product: blog, newsletter, conference content
+- Silicon Valley Product Group: methodology, frameworks
+- Lenny's Newsletter: growth, strategy, career guidance
+- Stratechery by Ben Thompson: platform economics, strategic analysis
+
+### News Aggregators
+- Product Hunt: daily launches, trending products
+- Hacker News: technical and product discussion threads
+
+## Development & Engineering
+
+### Technical News
+- The Verge: consumer tech, platform developments
+- TechCrunch: startup launches, funding, product releases
+- Ars Technica: in-depth technical analysis
+- InfoQ: enterprise architecture, engineering practices
+
+## Digital Strategy & Business
+
+### Strategy Publications
+- Harvard Business Review: digital transformation case studies
+- McKinsey Digital: industry trend reports
+- a16z (Andreessen Horowitz): investment thesis, market analysis
+- The Information: subscription-based tech journalism, insider reporting
+
+### Industry Analysis
+- Gartner Research: market forecasts, technology hype cycles
+- Forrester Research: enterprise technology adoption trends
+
+## Artificial Intelligence
+
+### AI-Specific
+- The Batch (deeplearning.ai): weekly AI news curated by Andrew Ng
+- Import AI by Jack Clark: research summaries, policy developments
+- The Neuron: daily AI business applications newsletter
+- AI Breakdown (podcast): technical developments explained
+- Towards Data Science (Medium): implementation tutorials, case studies
+
+### Research & Development
+- OpenAI Blog: model releases, research papers
+- Google AI Blog: research directions, product integrations
+- Anthropic Blog: safety research, Claude updates
+- arXiv.org (cs.AI category): preprint papers, cutting-edge research
+
+## Media & Audio
+
+### Media Industry
+- The Verge: streaming, content platforms, media business
+- Puck News: entertainment industry insider reporting
+- Nieman Lab: journalism, digital media innovation
+- Media Voices (podcast): media business models, audience strategies
+
+### Audio-Specific
+- Podnews: podcast industry news, statistics
+- Hot Pod: newsletter covering podcast business
+- Music Ally: music streaming, digital music business
+- AudioStack Blog: audio production technology
+- Resonate Recordings: spatial audio, immersive content
+
+## Cross-Category Aggregators
+
+### Multi-Topic Coverage
+- Benedict Evans Newsletter: technology strategy, market structure
+- Platformer by Casey Newton: social platforms, content moderation, policy
+- TLDR Newsletter: daily tech news across categories
+- Morning Brew: business news with tech focus
+- Axios: concise news format, technology vertical
+
+## Specialized Job Market Intelligence
+
+### Career & Skills
+- LinkedIn News (Tech vertical): hiring trends, skill demand signals
+- Blind: anonymous industry discussion, compensation data
+- Levels.fyi: compensation benchmarks, company ratings
+- Wellfound (AngelList Talent): startup job market indicators
+
+---
+
+# Source Management Protocol
+
+## Priority Tier Assignment
+- Tier 1 (Daily): 3-5 sources with highest signal-to-noise ratio
+- Tier 2 (Weekly): 5-8 sources for broader context
+- Tier 3 (Monthly): 5-10 sources for deep dives, research
+
+## Review Schedule
+- Morning scan: Tier 1 sources, 15 minutes
+- Midweek review: Tier 2 sources, 30 minutes
+- Weekend synthesis: Tier 3 sources, 60 minutes
+
+## Rotation Strategy
+- Quarterly evaluation: measure value delivered per source
+- Replace bottom 20% with trial sources
+- Maintain maximum 25 active sources to prevent overload
