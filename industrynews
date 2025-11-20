@@ -4,6 +4,7 @@ Run this worklow when asked to "run analysis"
 
 ## Objective
 Monitor and evaluate news across product management, development, digital strategy, AI, media, and audio sectors to identify potential impacts on current role and career trajectory.
+With the quantity of stories about AI, make sure signal is filtered from noise, and not every story is about AI.
 
 ## Weekly Review Cycle
 
@@ -12,6 +13,7 @@ Monitor and evaluate news across product management, development, digital strate
 - Scan headlines from RSS feeds, newsletters, industry publications
 - Tag items by primary category: PM, Dev, Strategy, AI, Media, Audio
 - Flag items that span multiple categories
+- Make sure at least one story isn't only about the AI industry.
 
 ### 2. Filtering Criteria
 Prioritize articles that meet one or more conditions:
@@ -35,12 +37,17 @@ For each selected article, document:
 - 2: Background awareness
 - 1: Peripheral interest
 
+**Counternarratives :**
+How might this news be challenged? Control for hype, or intentional narratives from biased parties.
+
 **Impact Assessment:**
 - Current role: [Specific effect on existing responsibilities]
 - Skill gaps: [Capabilities to develop or acquire]
 - Strategic positioning: [How this changes career options]
 
 **Action Items:** [Concrete next steps with timeframes]
+
+
 
 ### 4. Monthly Synthesis
 Compile patterns across analyzed items:
